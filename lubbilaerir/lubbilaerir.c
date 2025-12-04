@@ -11,6 +11,6 @@ int main()
 {
     char word[20];
     scanf("%s", word);
-    printf("%c", word[0]);
+    printf("%c\n", word[0]);
     return 0;
 }

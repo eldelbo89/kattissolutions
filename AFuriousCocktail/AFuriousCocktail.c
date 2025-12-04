@@ -86,11 +86,11 @@ int main(void)
     {
         if (((i + 1) * T) + array[i] - NT <= 0)
         {
-            printf("NO");
+            printf("NO\n");
             return 0;
         }
     }
-    printf("YES");
+    printf("YES\n");
     free(array);
     return 0;
 }

@@ -14,7 +14,7 @@ int main()
 
     if (n < 100)
     {
-        printf("99");
+        printf("99\n");
         return 0;
     }
     int x = (n - (n % 100)) + 99;
@@ -22,7 +22,7 @@ int main()
     {
         x -= 100;
     }
-    printf("%d", x);
+    printf("%d\n", x);
 
     return 0;
 }

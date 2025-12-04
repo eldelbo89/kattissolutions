@@ -11,6 +11,6 @@ int main()
 {
     char word[100];
     scanf("%s", word);
-    printf("Kvedja,\n%s", word);
+    printf("Kvedja,\n%s\n", word);
     return 0;
 }

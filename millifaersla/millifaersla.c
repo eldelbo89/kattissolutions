@@ -20,6 +20,6 @@ int main()
             index = i;
         }
     }
-    printf("%s", services[index]);
+    printf("%s\n", services[index]);
     return 0;
 }
