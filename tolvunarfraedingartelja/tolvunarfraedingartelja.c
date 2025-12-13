@@ -1,12 +1,12 @@
 /*
 tolvunarfraedingartelja.c
-Kattis solution of tolvunarfraedingartelja
+Kattis Solution for Kattis problem tolvunarfraedingartelja
 https://open.kattis.com/problems/tolvunarfraedingartelja
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
-int main()
+int main(void)
 {
     int i;
     scanf("%d", &i);

@@ -1,13 +1,13 @@
 /*
 TakeTwoStones.c
-Kattis solution of TakeTwoStones
+Kattis Solution for Kattis problem TakeTwoStones
 https://open.kattis.com/problems/twostones
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int N;
     scanf("%d", &N);

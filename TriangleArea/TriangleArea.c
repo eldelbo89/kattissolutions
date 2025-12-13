@@ -1,13 +1,13 @@
 /*
 TriangleArea.c
-Kattis solution of TriangleArea
+Kattis Solution for Kattis problem TriangleArea
 https://open.kattis.com/problems/triarea
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int x, y;
     scanf("%d %d", &x, &y);

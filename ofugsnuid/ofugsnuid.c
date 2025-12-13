@@ -1,14 +1,14 @@
 /*
 ofugsnuid.c
-Kattis solution of ofugsnuid
+Kattis Solution for Kattis problem ofugsnuid
 https://open.kattis.com/problems/ofugsnuid
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int main(void)
 {
     int N;
     scanf("%d", &N);

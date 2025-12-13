@@ -1,15 +1,15 @@
 /*
 takkar.c
-Kattis solution of takkar
+Kattis Solution for Kattis problem takkar
 https://open.kattis.com/problems/takkar
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 #define TRUMP "MAGA!"
 #define KIM "FAKE NEWS!"
 #define WAR "WORLD WAR 3!"
-void main()
+int main(void)
 {
   int trump, kim;
   scanf("%d %d", &trump, &kim);
@@ -19,4 +19,5 @@ void main()
     printf("%s\n", KIM);
   else
     printf("%s\n", WAR);
+  return 0;
 }

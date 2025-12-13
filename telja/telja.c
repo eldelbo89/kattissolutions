@@ -1,13 +1,13 @@
 /*
 telja.c
-Kattis solution of telja
+Kattis Solution for Kattis problem telja
 https://open.kattis.com/problems/telja
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
   int n;
   scanf("%d", &n);

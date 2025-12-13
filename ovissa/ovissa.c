@@ -1,13 +1,13 @@
 /*
 ovissa.c
-Kattis solution of ovissa
+Kattis Solution for Kattis problem ovissa
 https://open.kattis.com/problems/ovissa
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     char in[100000];
     scanf("%s", in);

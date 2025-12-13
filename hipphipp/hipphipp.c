@@ -1,13 +1,13 @@
 /*
 hipphipp.c
-Kattis solution of hipphipp
+Kattis Solution for Kattis problem hipphipp
 https://open.kattis.com/problems/hipphipp
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int i;
     for (i = 0; i < 20; i++)

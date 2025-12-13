@@ -1,8 +1,8 @@
 /*
 AFuriousCocktail.c
-Kattis solution of AFuriousCocktail
+Kattis Solution for Kattis problem AFuriousCocktail
 https://open.kattis.com/problems/cocktail
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 /*
     Problem and solution Explanation:

@@ -1,8 +1,8 @@
 /*
 trik.c
-Kattis solution of trik
+Kattis Solution for Kattis problem trik
 https://open.kattis.com/problems/trik
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>

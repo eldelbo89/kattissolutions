@@ -1,13 +1,13 @@
 /*
 lubbilaerir.c
-Kattis solution of lubbilaerir
+Kattis Solution for Kattis problem lubbilaerir
 https://open.kattis.com/problems/lubbilaerir
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     char word[20];
     scanf("%s", word);

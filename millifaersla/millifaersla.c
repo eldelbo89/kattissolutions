@@ -1,12 +1,12 @@
 /*
 millifaersla.c
-Kattis solution of millifaersla
+Kattis Solution for Kattis problem millifaersla
 https://open.kattis.com/problems/millifaersla
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
-int main()
+int main(void)
 {
     int i, index = 0, a, minimum = 1000000000;
     const char services[3][18] = {

@@ -1,13 +1,13 @@
 /*
 velkomin.c
-Kattis solution of velkomin
+Kattis Solution for Kattis problem velkomin
 https://open.kattis.com/problems/velkomin
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     printf("VELKOMIN!\n");
 

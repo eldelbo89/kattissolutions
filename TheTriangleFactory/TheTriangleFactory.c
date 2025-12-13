@@ -1,13 +1,13 @@
 /*
 TheTriangleFactory.c
-Kattis solution of TheTriangleFactory
+Kattis Solution for Kattis problem TheTriangleFactory
 https://open.kattis.com/problems/triangelfabriken
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int status = 0;
     char *output[] = {"Trubbig", "Ratvinklig", "Spetsig"}; //>90 ==90 <90

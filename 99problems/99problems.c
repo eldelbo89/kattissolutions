@@ -1,12 +1,12 @@
 /*
 99problems.c
-Kattis solution of 99problems
+Kattis Solution for Kattis problem 99problems
 https://open.kattis.com/problems/99problems
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
-int main()
+int main(void)
 {
     int n;
 

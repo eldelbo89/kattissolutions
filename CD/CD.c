@@ -1,14 +1,14 @@
 /*
 CD.c
-Kattis solution of CD
+Kattis Solution for Kattis problem CD
 https://open.kattis.com/problems/CD
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int main(void)
 {
     int N, M;
     while (1)

@@ -1,13 +1,13 @@
 /*
 leggjasaman.c
-Kattis solution of leggjasaman
+Kattis Solution for Kattis problem leggjasaman
 https://open.kattis.com/problems/leggjasaman
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int a, b;
     scanf("%d %d", &a, &b);

@@ -1,13 +1,13 @@
 /*
 concatenate-skeytasaman.c
-Kattis solution of concatenate-skeytasaman
+Kattis Solution for Kattis problem concatenate-skeytasaman
 https://open.kattis.com/problems/skeytasaman
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
   char s[101], t[101];
   scanf("%s %s", s, t);

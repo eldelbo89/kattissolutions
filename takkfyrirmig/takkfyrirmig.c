@@ -1,13 +1,13 @@
 /*
 takkfyrirmig.c
-Kattis solution of takkfyrirmig
+Kattis Solution for Kattis problem takkfyrirmig
 https://open.kattis.com/problems/takkfyrirmig
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int i;
     scanf("%d", &i);
 

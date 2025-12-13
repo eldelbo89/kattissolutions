@@ -1,13 +1,13 @@
 /*
 twosum.c
-Kattis solution of twosum
+Kattis Solution for Kattis problem twosum
 https://open.kattis.com/problems/twosum
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int x, y;
     scanf("%d %d", &x, &y);

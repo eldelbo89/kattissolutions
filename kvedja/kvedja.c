@@ -1,13 +1,13 @@
 /*
 kvedja.c
-Kattis solution of kvedja
+Kattis Solution for Kattis problem kvedja
 https://open.kattis.com/problems/kvedja
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     char word[100];
     scanf("%s", word);

@@ -1,13 +1,13 @@
 /*
 aleidibio.c
-Kattis solution of aleidibio
+Kattis Solution for Kattis problem aleidibio
 https://open.kattis.com/problems/aleidibio
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int a, b, c;
     scanf("%d %d %d", &a, &b, &c);

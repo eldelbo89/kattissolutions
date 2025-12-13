@@ -1,13 +1,13 @@
 /*
 reduplikation.c
-Kattis solution of reduplikation
+Kattis Solution for Kattis problem reduplikation
 https://open.kattis.com/problems/reduplikation
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int n;      // to store a digit between 1 and 9
     char s[11]; // to store the string to be repeated 2<=|s|<=10

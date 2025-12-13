@@ -1,13 +1,13 @@
 /*
 dragafra.c
-Kattis solution of dragafra
+Kattis Solution for Kattis problem dragafra
 https://open.kattis.com/problems/dragafra
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int a, b;
     scanf("%d %d", &a, &b);

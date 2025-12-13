@@ -1,14 +1,14 @@
 /*
 vidsnuningur.c
-Kattis solution of vidsnuningur
+Kattis Solution for Kattis problem vidsnuningur
 https://open.kattis.com/problems/vidsnuningur
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 #include <string.h>
 #define MAX_LENGTH 1000
-int main()
+int main(void)
 {
     int i, length;
     char input[MAX_LENGTH];

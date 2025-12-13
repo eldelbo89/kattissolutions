@@ -1,13 +1,13 @@
 /*
 flatbokuveisla.c
-Kattis solution of flatbokuveisla
+Kattis Solution for Kattis problem flatbokuveisla
 https://open.kattis.com/problems/flatbokuveisla
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int n, m;
     scanf("%d %d", &n, &m);

@@ -1,13 +1,13 @@
 /*
 storafmaeli.c
-Kattis solution of storafmaeli
+Kattis Solution for Kattis problem storafmaeli
 https://open.kattis.com/problems/storafmaeli
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int a;
     scanf("%d", &a);

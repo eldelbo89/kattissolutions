@@ -1,12 +1,12 @@
 /*
 StuckInATimeLoop.c
-Kattis solution of StuckInATimeLoop
+Kattis Solution for Kattis problem StuckInATimeLoop
 https://open.kattis.com/problems/timeloop
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
-int main()
+int main(void)
 {
   int x;
   scanf("%d", &x);

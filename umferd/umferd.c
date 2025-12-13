@@ -1,8 +1,8 @@
 /*
 umferd.c
-Kattis solution of umferd
+Kattis Solution for Kattis problem umferd
 https://open.kattis.com/problems/umferd
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>

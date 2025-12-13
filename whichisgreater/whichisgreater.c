@@ -1,13 +1,13 @@
 /*
 whichisgreater.c
-Kattis solution of whichisgreater
+Kattis Solution for Kattis problem whichisgreater
 https://open.kattis.com/problems/whichisgreater
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int A, B;
     scanf("%d %d", &A, &B);

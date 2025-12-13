@@ -1,13 +1,13 @@
 /*
 upprodun.c
-Kattis solution of upprodun
+Kattis Solution for Kattis problem upprodun
 https://open.kattis.com/problems/upprodun
-Hossein Eldelbani
+Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int rooms, teams, i, j;
     scanf("%d %d", &rooms, &teams);
