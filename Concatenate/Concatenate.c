@@ -1,15 +1,16 @@
 /*
-concatenate-skeytasaman.c
-Kattis Solution for Kattis problem concatenate-skeytasaman
+Concatenate.c
+Kattis Solution for Kattis problem Concatenate
 https://open.kattis.com/problems/skeytasaman
 Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main(void)
+int main()
 {
   char s[101], t[101];
+  
   scanf("%s %s", s, t);
   printf("%s%s\n", s, t);
   return 0;

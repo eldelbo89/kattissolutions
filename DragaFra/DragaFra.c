@@ -1,6 +1,6 @@
 /*
-dragafra.c
-Kattis Solution for Kattis problem dragafra
+DragaFra.c
+Kattis Solution for Kattis problem DragaFra
 https://open.kattis.com/problems/dragafra
 Author: Hossein Eldelbani
 */
@@ -10,7 +10,9 @@ Author: Hossein Eldelbani
 int main(void)
 {
     int a, b;
+
     scanf("%d %d", &a, &b);
     printf("%d\n", (a - b));
+
     return 0;
 }

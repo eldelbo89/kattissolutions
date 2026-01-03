@@ -11,15 +11,26 @@ Author: Hossein Eldelbani
 int main(void)
 {
     int N, M;
+    int *Jack = NULL;
+    int *Jill = NULL;
+    int capN = 0, capM = 0;
+
     while (1)
     {
         scanf("%d %d", &N, &M);
         if (!N && !M)
             break;
 
-        int *Jack = (int *)malloc(sizeof(int) * N);
-        int *Jill = (int *)malloc(sizeof(int) * M);
-
+        if (N > capN)
+        {
+            Jack = realloc(Jack, N * sizeof(int));
+            capN = N;
+        }
+        if (M > capM)
+        {
+            Jill = realloc(Jill, M * sizeof(int));
+            capM = M;
+        }
         for (int i = 0; i < N; i++)
         {
             scanf("%d", &Jack[i]);
@@ -49,9 +60,9 @@ int main(void)
         }
 
         printf("%d\n", results);
-
-        free(Jack);
-        free(Jill);
     }
+
+    free(Jack);
+    free(Jill);
     return 0;
 }
