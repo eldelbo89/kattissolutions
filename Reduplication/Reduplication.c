@@ -1,6 +1,6 @@
 /*
-reduplikation.c
-Kattis Solution for Kattis problem reduplikation
+Reduplication.c
+Kattis Solution for Kattis problem Reduplication
 https://open.kattis.com/problems/reduplikation
 Author: Hossein Eldelbani
 */
@@ -18,4 +18,5 @@ int main(void)
     {
         printf("%s", s);
     }
+    return 0;
 }
