@@ -167,14 +167,14 @@ int main(void)
         After eliminating them, we count the number of x's in each 5-column block.
         We found the following patterns:
 
-        4  x's  → 1
-        7  x's  → +
-        8  x's  → 7
-        10 x's  → 4
-        11 x's  → 0
-        12 x's  → 2 or 3 or 5
-        13 x's  → 6 or 9
-        14 x's  → 8
+        4  x's  -> 1
+        7  x's  -> +
+        8  x's  -> 7
+        10 x's  -> 4
+        11 x's  -> 0
+        12 x's  -> 2 or 3 or 5
+        13 x's  -> 6 or 9
+        14 x's  -> 8
         */
 
         char c1 = line1[i];

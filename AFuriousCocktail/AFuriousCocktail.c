@@ -4,16 +4,17 @@ Kattis Solution for Kattis problem AFuriousCocktail
 https://open.kattis.com/problems/cocktail
 Author: Hossein Eldelbani
 */
+
 /*
     Problem and solution Explanation:
     Each potion needs the same time to drink (T). Once the previous potion is finished being drunk, the next one starts.
     Each potion has a duration (t).
     In my clarification:
-        each unit of the potion’s duration (t) is shown as “#”.
-        each unit of drinking time (T) is shown as “_”.
+        each unit of the potion's duration (t) is shown as "#".
+        each unit of drinking time (T) is shown as "_".
 
     NT = NxT is the time for the last potion to wait for its turn to be drunk plus its drinking time.
-    So we subtract that time from each potion’s duration, along with its waiting time and its drinking duration.
+    So we subtract that time from each potion's duration, along with its waiting time and its drinking duration.
     Again we cannot start drinking the next potion until we finish drinking the current one.
     Formula: (i + 1) * T + array[i] - NT
 
@@ -27,14 +28,14 @@ Author: Hossein Eldelbani
     5
 
     Rearranged to 5 4 3 2 1
-    N = 5, T = 1 → NT = 5
+    N = 5, T = 1 -> NT = 5
     Formula: (i + 1) * T + array[i] - NT
 
-    p1: 5  _|# # # # #       : 1 × 1 + 5 − 5 = 1
-    p2: 4   |_|# # # #       : 2 × 1 + 4 − 5 = 1
-    p3: 3     |_|# # #       : 3 × 1 + 3 − 5 = 1
-    p4: 2       |_|# #       : 4 × 1 + 2 − 5 = 1
-    p5: 1         |_|#       : 5 × 1 + 1 − 5 = 1
+    p1: 5  _|# # # # #       : 1 x 1 + 5 - 5 = 1
+    p2: 4   |_|# # # #       : 2 x 1 + 4 - 5 = 1
+    p3: 3     |_|# # #       : 3 x 1 + 3 - 5 = 1
+    p4: 2       |_|# #       : 4 x 1 + 2 - 5 = 1
+    p5: 1         |_|#       : 5 x 1 + 1 - 5 = 1
 
     Answer is YES.
 
@@ -45,12 +46,12 @@ Author: Hossein Eldelbani
     2
 
     Rearranged to 4 3 2
-    N = 3, T = 2 → NT = 6
+    N = 3, T = 2 -> NT = 6
     Formula: (i + 1) * T + array[i] - NT
 
-    p1: 4  __|# # # #       : 1 × 2 + 4 − 6 = 0, which causes the loop to break
-    p2: 3    |__|# # #      : 2 × 2 + 3 − 6 = 1
-    p3: 2       |__|# #     : 3 × 2 + 2 − 6 = 2
+    p1: 4  __|# # # #       : 1 x 2 + 4 - 6 = 0, which causes the loop to break
+    p2: 3    |__|# # #      : 2 x 2 + 3 - 6 = 1
+    p3: 2       |__|# #     : 3 x 2 + 2 - 6 = 2
 
     Answer is NO.
 */
