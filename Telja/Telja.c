@@ -1,15 +1,16 @@
 /*
-telja.c
-Kattis Solution for Kattis problem telja
+Telja.c
+Kattis Solution for Kattis problem Telja
 https://open.kattis.com/problems/telja
 Author: Hossein Eldelbani
 */
 
 #include <stdio.h>
 
-int main(void)
+int main()
 {
   int n;
+
   scanf("%d", &n);
   for (int i = 1; i <= n; i++)
   {
